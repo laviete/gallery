@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    background-color: rgb(200, 217, 214); 
+}
+.container {
+    margin: 0 auto;
+}
+.image{
+    padding: 5px;
+    margin: 5px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    box-sizing: border-box;
+    display: inline-block;
+    border: 4px double rgb(91, 123, 112);
+    border-radius: 5px;
+    box-shadow: 5px 5px 6px #979797;
+    cursor: pointer;
+}
+h1{
+    font-family: 'Italiana', serif;
+    font-weight: normal;
+    font-size: 60px;
+}
