@@ -7,15 +7,17 @@ body{
     margin: 0 auto;
 }
 .image{
-    padding: 5px;
-    margin: 5px;
+    display: inline-block;
+    box-sizing: border-box;
+
     width: 250px;
     height: 250px;
-    object-fit: cover;
-    box-sizing: border-box;
-    display: inline-block;
+    padding: 5px;
     border: 4px double rgb(91, 123, 112);
     border-radius: 5px;
+    margin: 5px;
+    
+    object-fit: cover;
     box-shadow: 5px 5px 6px #979797;
     cursor: pointer;
 }
